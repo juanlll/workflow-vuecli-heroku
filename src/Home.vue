@@ -1,6 +1,8 @@
 
 	<template>
-		<h2>Esto es la {{texto}} </h2>
+	<div class="alert alert-primary" role="alert">
+BIENVENIDO AL COMPONENTE HOME
+	</div>
 	</template>
 	
 	<script>
@@ -10,7 +12,7 @@
 	
 	  data () {
 	    return {
-	texto:'PAGINA HOME'
+	texto:'HOME'
 	    }
 	  }
 	}
